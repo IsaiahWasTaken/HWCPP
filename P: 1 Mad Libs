@@ -1,0 +1,57 @@
+//P: 1 Mad Libs
+
+#include <iostream>
+using namespace std;
+int main() {
+	
+	string adjective, verb, adjective2, noun, verb2, adjective3, noun2, adjective4, adjective5, noun3, noun4;
+	
+	cout << "Enter an adjective: ";
+	cin >> adjective;
+
+	cout << "Enter a verb: ";
+	cin >> verb;
+
+	cout << "Enter another adjective: ";
+	cin >> adjective2;
+
+	cout << "Enter a noun: ";
+	cin >> noun;
+
+	cout << "Enter another verb: ";
+	cin >> verb2;
+
+	cout << "Enter another adjective: ";
+	cin >> adjective3;
+
+	cout << "Enter a plural noun: ";
+	cin >> noun2;
+
+	cout << "Enter another adjective: ";
+	cin >> adjective4;
+
+	cout << "Enter another adjective: ";
+	cin >> adjective5;
+
+	cout << "Enter another noun: ";
+	cin >> noun3;
+
+	cout << "Enter another noun: ";
+	cin >> noun4;
+
+
+
+
+	cout << "Our School cafeteria has really " << adjective << " food." << endl;
+	cout << "Just thinking about it makes my stomach " << verb << "." << endl;
+	cout << "The spaghetti is " << adjective2 << " and tastes like " << noun << "." << endl;
+	cout << "One day, I swear one of my meatballs started to " << verb2 << "!" << endl;
+	cout << "The turkey tacos are totally " << adjective3 << " and look kind of like old " << noun2 << "." << endl;
+	cout << "My friend Joe actually likes the meatloaf, even though it's " << adjective4 << " and " << adjective5 << "."<< endl;
+	cout << "I call it mystery meatloaf and think it's reall made out of " << noun3 << "." << endl;
+	cout << "My dad said he'd make my lunches, but the first day, he made me a sandwich out of " << noun4 << " and peanut butter!" << endl;
+	cout << "I think I'd rather take my chances with the cafeteria! " << endl;
+
+	
+	
+}
