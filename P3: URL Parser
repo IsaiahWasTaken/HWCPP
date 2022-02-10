@@ -1,0 +1,34 @@
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	
+	string input;
+
+	string bob = "//";
+	string gob = "com";
+
+	cout << "Please enter a URL: ";
+	cin >> input;
+
+
+
+	
+	int z = input.size();
+
+	int b = input.find(":");
+	int c = input.find(bob);
+	int d = input.find(gob);
+	string scheme = input.substr(0,b+1);
+	string authority = input.substr(c, d-3);
+	string path = input.substr(d+3,z);
+	
+	cout <<"Scheme: " << scheme << endl;
+	cout << "Authority: " << authority << endl;
+	cout << "Path: " << path << endl;
+	return 0;
+
+
+}
